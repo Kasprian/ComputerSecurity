@@ -1,2 +1,1 @@
-# ComputerSecurity
-Listy na zajęcia
+Bezpieczeństwo
