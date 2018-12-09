@@ -1,0 +1,25 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 09 Dec 2018 23:18:19 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+Content-Range: bytes 0-1140/1141
+Content-Length: 1141
+Keep-Alive: timeout=5, max=50
+Connection: Keep-Alive
+Content-Type: text/html;charset=ISO-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /dashboard/javascripts</title>
+ </head>
+ <body>
+<h1>Index of /dashboard/javascripts</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/dashboard/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="all.js">all.js</a>                 </td><td align="right">2018-05-10 11:45  </td><td align="right">184K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="modernizr.js">modernizr.js</a>           </td><td align="right">2018-05-10 11:45  </td><td align="right"> 50K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

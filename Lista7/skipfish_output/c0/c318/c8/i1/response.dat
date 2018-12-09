@@ -1,0 +1,22 @@
+HTTP/1.1 403 Forbidden
+Date: Sun, 09 Dec 2018 23:18:41 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+Alternates: {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language cs} {length 1034}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language de} {length 915}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language en} {length 813}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language es} {length 910}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language fr} {length 1015}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language ga} {length 898}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language it} {length 916}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language ja} {length 1891}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language ko} {length 1471}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language nl} {length 902}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language pl} {length 939}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language pt-br} {length 974}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language ro} {length 890}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language sr} {length 2445}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language sv} {length 982}}, {"XAMPP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language tr} {length 940}}
+Vary: accept-language
+Content-Length: 356
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /phpmyadmin/access_log.1.cgi/
+on this server.<br />
+</p>
+<p>Additionally, a 403 Forbidden
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+html>

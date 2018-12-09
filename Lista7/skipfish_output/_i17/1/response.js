@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 200 OK\x0aDate: Sun, 09 Dec 2018 23:18:19 GMT\x0aServer: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3\x0aX-Powered-By: PHP/7.2.12\x0aSet-Cookie: phpMyAdmin=67785b67d82b424ff44577a3e996341e; path=/phpmyadmin/; HttpOnly\x0a\x0a[...truncated...]\x0a'}

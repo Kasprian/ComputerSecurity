@@ -1,0 +1,10 @@
+GET /dashboard/images/addons-video-thumb.png HTTP/1.1
+Host: localhost
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://localhost/
+Authorization: Basic YWRhbToxNDI0bWFzbG8=
+Cookie: PHPSESSID=8bf59fa72aee25defaec4076d31cd00d; phpMyAdmin=67785b67d82b424ff44577a3e996341e; pma_lang=nl
+

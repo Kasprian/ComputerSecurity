@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 23:18:19 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Set-Cookie: phpMyAdmin=67785b67d82b424ff44577a3e996341e; path=/phpmyadmin/; HttpOnly
+Expires: Sun, 09 Dec 2018 23:18:19 +0000
+Cache-Control: no-store, no-cache, must-revalidate,  pre-check=0, post-check=0, max-age=0
+Last-Modified: Sun, 09 Dec 2018 23:18:19 +0000
+Set-Cookie: phpMyAdmin=67785b67d82b424ff44577a3e996341e; path=/phpmyadmin/; HttpOnly
+Set-Cookie: pma_lang=en; expires=Tue, 08-Jan-2019 23:18:19 GMT; Max-Age=2592000; path=/phpmyadmin/; HttpOnly
+
+[...truncated...]

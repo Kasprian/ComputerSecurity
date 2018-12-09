@@ -1,0 +1,13 @@
+POST /phpmyadmin/index.php?db=&table=&server=1&target= HTTP/1.1
+Host: localhost
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://localhost/
+Authorization: Basic YWRhbToxNDI0bWFzbG8=
+Cookie: PHPSESSID=8bf59fa72aee25defaec4076d31cd00d; phpMyAdmin=67785b67d82b424ff44577a3e996341e; pma_lang=nl
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 854
+
+tab_hash=&check_page_refresh=&token=tV:8ArE%23VQvjmtk\&submit_save=Navi&ShowDatabasesNavigationAsTree=on&NavigationLinkWithMainPanel=on&NavigationDisplayLogo=on&NavigationLogoLink=index.php&NavigationLogoLinkWindow=1&NavigationTreePointerEnable=on&FirstLevelNavigationItems=100&NavigationTreeDisplayItemFilterMinimum=30&NumRecentTables=10&NumFavoriteTables=10&NavigationWidth=240&MaxNavigationItems=50&NavigationTreeEnableGrouping=on&NavigationTreeEnableExpansion=on&NavigationTreeShowTables=on&NavigationTreeShowViews=on&NavigationTreeShowFunctions=on&NavigationTreeShowProcedures=on&NavigationTreeShowEvents=on&NavigationDisplayServers=on&DisplayServersList=on&NavigationTreeDisplayDbFilterMinimum=30&NavigationTreeDbSeparator=_&NavigationTreeDefaultTabTable=1&NavigationTreeDefaultTabTable2=1&NavigationTreeTableSeparator=__&NavigationTreeTableLevel=1

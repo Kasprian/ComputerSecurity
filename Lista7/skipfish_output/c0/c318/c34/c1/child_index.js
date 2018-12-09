@@ -1,0 +1,7 @@
+var child = [
+  { 'dupe': false, 'type': 4, 'name': 'codemirror', 'dir': 'c0', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/codemirror/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 25, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'jquery', 'dir': 'c1', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/jquery/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 18, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'js.cookie.js', 'dir': 'c2', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/js.cookie.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'sprintf.js', 'dir': 'c3', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/sprintf.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'tracekit.js', 'dir': 'c4', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/tracekit.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

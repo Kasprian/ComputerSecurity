@@ -1,0 +1,6 @@
+var child = [
+  { 'dupe': false, 'type': 8, 'name': 'jquery-migrate.js', 'dir': 'c0', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/jquery/jquery-migrate.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'jquery-ui-timepicker-addon.js', 'dir': 'c1', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/jquery/jquery-ui-timepicker-addon.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'jquery-ui.min.js', 'dir': 'c2', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/jquery/jquery-ui.min.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'jquery.ba-hashchange-1.3.js', 'dir': 'c3', 'linked': 2, 'url': 'http://localhost/phpmyadmin/js/vendor/jquery/jquery.ba-hashchange-1.3.js', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+];

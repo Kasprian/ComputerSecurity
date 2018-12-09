@@ -1,0 +1,427 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 23:18:25 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Set-Cookie: phpMyAdmin=7a136d2fe8329e42dce53dd7cbc29a6e; path=/phpmyadmin/; HttpOnly
+Expires: Sun, 09 Dec 2018 23:18:25 +0000
+Cache-Control: no-store, no-cache, must-revalidate,  pre-check=0, post-check=0, max-age=0
+Last-Modified: Sun, 09 Dec 2018 23:18:25 +0000
+X-ob_mode: 1
+X-Frame-Options: DENY
+Referrer-Policy: no-referrer
+Content-Security-Policy: default-src 'self' ;script-src 'self' 'unsafe-inline' 'unsafe-eval' ;style-src 'self' 'unsafe-inline' ;img-src 'self' data:  *.tile.openstreetmap.org;object-src 'none';
+X-Content-Security-Policy: default-src 'self' ;options inline-script eval-script;referrer no-referrer;img-src 'self' data:  *.tile.openstreetmap.org;object-src 'none';
+X-WebKit-CSP: default-src 'self' ;script-src 'self'  'unsafe-inline' 'unsafe-eval';referrer no-referrer;style-src 'self' 'unsafe-inline' ;img-src 'self' data:  *.tile.openstreetmap.org;object-src 'none';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Robots-Tag: noindex, nofollow
+Pragma: no-cache
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=87
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>phpMyAdmin - ChangeLog</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>phpMyAdmin - ChangeLog</h1>
+<pre>phpMyAdmin - ChangeLog
+======================
+
+4.8.3 (2018-08-22)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14314">issue #14314</a> Error when naming a database '0'
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14333">issue #14333</a> Fix NULL as default not shown
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14229">issue #14229</a> Fixes issue with recent table list
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14045">issue #14045</a> Fix slow performance on DB structure filtering
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14327">issue #14327</a> Fix Editing server variable not showing save or cancel option
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14377">issue #14377</a> Populate options for view create and edit
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14171">issue #14171</a> 2FA configuration fails if PHP doesn't have GD support
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14390">issue #14390</a> Can't unhide tables
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14382">issue #14382</a> &quot;Visualize GIS data&quot; icon missing
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14435">issue #14435</a> Event scheduler status toggle doesn't work
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14365">issue #14365</a> View not working on multiple servers
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14207">issue #14207</a> Partition actions in table structure do not work
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14375">issue #14375</a> Fixes ERR_BLOCKED_BY_XSS_AUDITOR on export table
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14552">issue #14552</a> Blank message shown instead of MySQL error when adding trigger and other locations
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14525">issue #14525</a> Fix PHP 7.3 warning: &quot;continue&quot; in &quot;switch&quot; is equal to &quot;break&quot;
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14554">issue #14554</a> Icon missing when creating a new trigger, routine, and event
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14422">issue #14422</a> Table comment not showing since 4.8.1
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14426">issue #14426</a> Drop table doesn't work when you copy tables to another database
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14581">issue #14581</a> Escaped HTML in 'Add a new server' setup
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14548">issue #14548</a> [security] HTML injection in import warning messages, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2018-5/">PMASA-2018-5</a>
+
+4.8.2 (2018-06-21)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14370">issue #14370</a> WHERE 0 causes Fatal error
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14225">issue #14225</a> Fix missing index icon
+- issue        [security] XSS vulnerability in Designer, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2018-3/">PMASA-2018-3</a>
+- issue        [security] File inclusion and remote code execution vulnerability, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2018-4/">PMASA-2018-4</a>
+
+4.8.1 (2018-05-24)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12772">issue #12772</a> Fix case where the central columns attributes don't get filled in
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14049">issue #14049</a> Fix case where the query builder doesn't work when selected column is *
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14029">issue #14029</a> Revert &quot;Browse&quot; table CSS overflow
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14241">issue #14241</a> Dropping indexes and foreign keys fail
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14227">issue #14227</a> Relational linking broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14246">issue #14246</a> Fixed error in configuration storage zero config
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14128">issue #14128</a> Show 2FA Secret next to QR code
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14212">issue #14212</a> XML Export from single table throws fatal error
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14239">issue #14239</a> Line and some other charts ignore result set order of values chosen for the x-axis
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14260">issue #14260</a> Fixed configuration for DefaultLang and Lang
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14264">issue #14264</a> Linking for 'Distinct values' broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13968">issue #13968</a> Fix MariaDB 10.2 current_timestamp()
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14249">issue #14249</a> Fix for missing go button in view edit
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14125">issue #14125</a> Fix for issues with spatial fields
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14189">issue #14189</a> Remember table's sorting broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14289">issue #14289</a> Fix multi-column sorting
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14278">issue #14278</a> Fix central columns in-line edit bug
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14066">issue #14066</a> Fix AUTO_INCREMENT error when only exporting table structure in database-level exports
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13893">issue #13893</a> Simulating queries produces unexpected results
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14309">issue #14309</a> Setup script icons missing
+
+<a name="4_8_0_1"></a><a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/commits/RELEASE_4_8_0_1">4.8.0.1 (2018-04-19)</a>
+- issue        [security] Multiple CSRF vulnerabilities, See <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2018-02/">PMASA-2018-02</a>
+
+4.8.0 (2018-04-07)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12946">issue #12946</a> Allow to export JSON with unescaped unicode chars
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12983">issue #12983</a> Disable login button without solved reCaptcha
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12315">issue #12315</a> Allow to remove individual segments from pie charts
+- issue        Change label from &quot;Improve table structure&quot; to &quot;Normalize&quot; to match standard terminology
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13087">issue #13087</a> Offer login as different user on access denied from MySQL
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13110">issue #13110</a> Indicate when HTTPS is not properly reported on the server
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13119">issue #13119</a> No database selected error when adding foreign key
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12388">issue #12388</a> Improved database search to allow search for exact phrase match
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13099">issue #13099</a> Report error when trying to copy database to same name
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13167">issue #13167</a> Themes now have to contain metadata in theme.json
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/6363">issue #6363</a>  phpMyAdmin no longer requires eval() in PHP
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12386">issue #12386</a> The mbstring dependency is now optional
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13269">issue #13269</a> Small refactoring in preparation to CSP
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13384">issue #13384</a> Database link broken in Databases Page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13391">issue #13391</a> Configurable authentication logging using $cfg['AuthLog']
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13086">issue #13086</a> Add support for Google Invisible Captcha
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13058">issue #13058</a> Improved error reporting for reCAPTCHA
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12899">issue #12899</a> Improved rendering of server variables table
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12948">issue #12948</a> Fixed javascript editor for TIME values
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13095">issue #13095</a> Fixed alignment of foreign keys editing
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12944">issue #12944</a> Improved inline editor for JSON
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13145">issue #13145</a> Improved layout of operations pages
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13448">issue #13448</a> Add &quot;format&quot; query button in edit view form
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/6241">issue #6241</a>  Implement Responsive Design/mobile interface
+- issue        Use a single location for classes under PhpMyAdmin namespace
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12354">issue #12354</a> Indicate SSL status on main page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/5666">issue #5666</a>  Configuration directives for defaults of Transformation options
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12261">issue #12261</a> Remove inline JavaScript
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13408">issue #13408</a> Show MySQL warnings when executing SQL queries
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/5827">issue #5827</a>  Allow Designer to show tables from other databases
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13268">issue #13268</a> Replace Query-By-Example with multi-table query generator interface
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13576">issue #13576</a> Add privileges export to per-database listing
+- issue        Consolidate functions into class files
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13560">issue #13560</a> Add support for changing collation for all tables and columns in database
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13303">issue #13303</a> Add support for creating fulltext index from table structure
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13711">issue #13711</a> Lower default value for $cfg['MaxExactCount']
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13722">issue #13722</a> DisableIS is not fully honored
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/6197">issue #6197</a>  Added support for authentication using U2F and 2FA
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13480">issue #13480</a> Avoid removing cookies on upgrade
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13397">issue #13397</a> Remember state of navigation panel
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11688">issue #11688</a> Reduced cookie usage
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13466">issue #13466</a> Better utilization of user preferences
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14042">issue #14042</a> Rename PMD to Designer
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13940">issue #13940</a> Honor arg_separator in AJAX requests
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14060">issue #14060</a> Can't edit rows in Internet Explorer
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/14096">issue #14096</a> Internet Explorer compatibility; fixes JavaScript error Object doesn't support property or method 'startsWith'
+
+4.7.9 (2018-03-05)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13931">issue #13931</a> Fixed browsing tables with more results
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13927">issue #13927</a> &quot;Not an integer&quot; when browsing a table
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13887">issue #13887</a> &quot;Input variables exceeded 1000&quot; error relating to PHP's max_input_vars directive
+
+4.7.8 (2018-02-20)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13914">issue #13914</a> Fixed resetting default setting values.
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13758">issue #13758</a> Fixed fallback value for collation connection.
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13938">issue #13938</a> Fixed error handling in PHP 7.2
+- issue        [security] Fix XSS in Central Columns Feature, See <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2018-01/">PMASA-2018-01</a>
+
+4.7.7 (2017-12-23)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13865">issue #13865</a> Fixed displaying of formatted numeric values for some locales
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13856">issue #13856</a> Ensure datetimepicker is always loaded for datetime fields
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13848">issue #13848</a> Fixed PHP error when browsing certain results
+- issue        [security] Fix XSRF/CSRF vulnerability, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-09/">PMASA-2017-09</a>
+
+4.7.6 (2017-11-29)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13517">issue #13517</a> Fixed check all interaction with filtering
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13803">issue #13803</a> Add SJIS-win to default list of allowed charsets
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13436">issue #13436</a> Improve detection that MySQL server needs SSL connection
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13038">issue #13038</a> Support JSON datatype on MariaDB 10.2.7 and newer
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13824">issue #13824</a> Fixed constructing ALTER query with AFTER
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13821">issue #13821</a> Lock page when changes are done in the SQL editor
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13842">issue #13842</a> Prefer iconv for encoding conversions
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13737">issue #13737</a> Fixed changing password on MariaDB cluster
+
+4.7.5 (2017-10-23)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13615">issue #13615</a> Avoid problems with browsing unknown query types
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13612">issue #13612</a> Integrate tooltip into datetime pickers
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13628">issue #13628</a> Fixed javascript error in server monitor
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13444">issue #13444</a> Fixed server monitor on non Linux and Windows systems
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13633">issue #13633</a> Reload javscript messages when changing language
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13604">issue #13604</a> Fixed crash on invalid ordering data
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13639">issue #13639</a> Fixed error when browsing non SELECT results
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13533">issue #13533</a> Fixed saving column to display
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13647">issue #13647</a> Fixed export of tables with VIRTUAL columns
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13669">issue #13669</a> Fixed selecting multiple rows accidentally selects the next row too
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13513">issue #13513</a> Fixed edit index Column alignment issue
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13515">issue #13515</a> Fixed rendering of add index dialog
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13710">issue #13710</a> Fixed possible error in server advisor
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13477">issue #13477</a> Fixed setting input transformations
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13552">issue #13552</a> Fixed IPv4/IPv6 To Binary input transformation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13686">issue #13686</a> Clicking on column name to trigger sort with an active search leads to logout
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13725">issue #13725</a> Fixed copying tables with specific PARTITION definition
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13761">issue #13761</a> Fixed listing of bookmarks for a database
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13800">issue #13800</a> Database lost when renaming to similar name and lower_case_table_names=1
+
+4.7.4 (2017-08-23)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13415">issue #13415</a> Remove shadow from the logo
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13507">issue #13507</a> Fixed per server theme feature
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13523">issue #13523</a> Missing newline in ALTER exports
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13414">issue #13414</a> Fixed several compatibility issues with PHP 7.2
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13550">issue #13550</a> Fixed copy results to clipboard
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13562">issue #13562</a> Add limitation for user group length
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13561">issue #13561</a> Fixed edit variable link in advisor
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13579">issue #13579</a> Optimize table link should not be visible in print page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13553">issue #13553</a> Improved error handling on corrupted tables
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13512">issue #13512</a> Fixed rendering of add index dialog
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13606">issue #13606</a> Fixed refreshing server variables
+
+4.7.3 (2017-07-20)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13447">issue #13447</a> Large multi-line query removes Export operation and blanks query box options
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13445">issue #13445</a> Fixed rendering of query results
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13437">issue #13437</a> Fixed version check when not connected to a database
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13465">issue #13465</a> Fixed creating relation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13475">issue #13475</a> Fixed export without backquotes
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13482">issue #13482</a> Improved handling of uploaded files with open_basedir
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13387">issue #13387</a> Fixed inline editing of hex values
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13382">issue #13382</a> Fixed size of index edit dialog
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13489">issue #13489</a> Fixed rendering SQL lint errors
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13468">issue #13468</a> Avoid breakage if set_time_limit is disabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13471">issue #13471</a> Fail if ini_set/ini_get are disabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13436">issue #13436</a> Automatically connect using SSL when server is configured so
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13478">issue #13478</a> Fixed usage of some browser transformations
+
+4.7.2 (2017-06-29)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13314">issue #13314</a> Make theme selection keep current server
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13311">issue #13311</a> Fixed direct login for accounts without password
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13316">issue #13316</a> Fixed check for mbstring.func_overload
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13323">issue #13323</a> Fixed wrong encoding of table at triggers
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12976">issue #12976</a> Fixed natural sorting in several places
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12718">issue #12718</a> Show warning for users removed from mysql.user table
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13362">issue #13362</a> Fixed loading additional javascripts
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13343">issue #13343</a> Fixed editing QBE
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13193">issue #13193</a> Improved documentation on user settings
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13092">issue #13092</a> Gracefully handle early fatal errors in AJAX requests
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13327">issue #13327</a> Fixed Incorrect NavigationTreeEnableExpansion default value in the documentation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13008">issue #13008</a> Fixed export of database with a lot of tables
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13318">issue #13318</a> Improved performance when importing with enabled tracking
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13386">issue #13386</a> Avoid PHP errors with non existing configuration on OS X
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13388">issue #13388</a> Show only supported charsets for conversion
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13392">issue #13392</a> Fixed operation with session.auto_start enabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13383">issue #13383</a> &quot;Create PHP code&quot; is broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13189">issue #13189</a> Fixed links to resume timeouted import
+
+4.7.1 (2017-05-25)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13132">issue #13132</a> Always execute tracking queries as controluser
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13125">issue #13125</a> Focus on SQL editor after inserting field name
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13133">issue #13133</a> Fixed broken links in setup
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13135">issue #13135</a> Database list Tooltips: Show wrong value
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13150">issue #13150</a> Fixed pagination while browsing resuls
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13149">issue #13149</a> Fixed outbound links in changelog.php
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13146">issue #13146</a> Do not include devel dependencies in the release
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13144">issue #13144</a> Do not show New as a database in database dropdown
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13130">issue #13130</a> Fixed handling of errors in AJAX requests
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13152">issue #13152</a> Fixed PHP error in case of invalid table preferences
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13154">issue #13154</a> Fixed PHP error on password change
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13219">issue #13219</a> Fix Refresh of Process List
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13182">issue #13182</a> Fix refresh of long queries
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12301">issue #12301</a> Improved handling of logout with disabled LoginCookieDeleteAll
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13216">issue #13216</a> Add support for MySQL 8.0 collations
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13218">issue #13218</a> Fixed rendering of phpMyAdmin logos
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13234">issue #13234</a> Properly report not working sessions
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13256">issue #13256</a> Fixed password check on server replication
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13252">issue #13252</a> Fixed grid editing time column
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13258">issue #13258</a> Fixed detection of Amazon RDS
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13241">issue #13241</a> Redirect user to last page that has any tables to display
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13266">issue #13266</a> Fix link to User accounts overview page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13274">issue #13274</a> Fix error in query builder
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13177">issue #13177</a> Grid editing repeats action after error
+
+4.7.0 (2017-03-28)
+- patch #12233 [Display] Improve message when renaming database to same name
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/6146">issue #6146</a>  Log authentication attempts to syslog
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11981">issue #11981</a> Remove support for Swekey authentication
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11987">issue #11987</a> Remove code for no longer supported MSIE versions
++ <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11962">issue #11962</a> Remove embedded PHP libraries, use composer to install them
++ <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12017">issue #12017</a> Cannot easily select multiple tables when exporting
++ <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12047">issue #12047</a> Add javascript filtering for databases
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12166">issue #12166</a> More compact rendering of navigation tree
++ <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12129">issue #12129</a> Improve performance with SkipLockedTables
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12173">issue #12173</a> Do not hide indexes under a slider
+- issue        Improve performance of zip file import
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12196">issue #12196</a> Removed $cfg['ThemePath']
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/6274">issue #6274</a>  Add support for export user settings as config.inc.php snippet
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/5555">issue #5555</a>  Better report query errors while generating SQL exports
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12307">issue #12307</a> Produce valid JSON on export
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12325">issue #12325</a> Setup script icons broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12378">issue #12378</a> Support IPv6 proxies
+- issue        Removed MySQL connection retry without password
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12218">issue #12218</a> Allow to specify further parameters for control connection
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12162">issue #12162</a> Show charset for each table on Database structure page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12463">issue #12463</a> Incorrect link in the href of icon at Hide/Show unhide links
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12330">issue #12330</a> Shortcut for closing console
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12465">issue #12465</a> Improved handling of http requests
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12474">issue #12474</a> Broken links in Setup forms Navigation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12494">issue #12494</a> Can't add a new User
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12523">issue #12523</a> Add 'token' Parameter in all POST requests (Fix 'Token mismatch' errors)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12302">issue #12302</a> Improved usage of number_format
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12656">issue #12656</a> Server selection not working
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12543">issue #12543</a> NULL results in dataset are colored grey
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12664">issue #12664</a> Create Bookmark broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12688">issue #12688</a> Use unsigned int for storing bookmark ID
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12352">issue #12352</a> Added password strength indicator
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12713">issue #12713</a> Correctly handle HTTP status when doing requests
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12247">issue #12247</a> Add option to delete settings from browser storage
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12783">issue #12783</a> Remove unused PMA_addJSCode function
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12069">issue #12069</a> Add table filtering to database structure
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12799">issue #12799</a> Allow to configure signon session parameters
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12854">issue #12854</a> Drop database is broken
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12863">issue #12863</a> Can't toggle Event Scheduler on
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12742">issue #12742</a> Finish removing dead code references to xls/xlsx import and export, which was removed some time ago.
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12536">issue #12536</a> Rename &quot;Relations&quot; to &quot;Relationships&quot; in many places as it's the more proper term
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12834">issue #12834</a> Fixed margins in central columns feature
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12903">issue #12903</a> Document more export configuration options
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12897">issue #12897</a> Use consistent numeric format for table overhead
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12901">issue #12901</a> Use server returned table name on renaming table
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12918">issue #12918</a> Always use \r\n as newline when editing fields
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12923">issue #12923</a> Fixed server side search in navigation panel
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12929">issue #12929</a> Undefined index warning with ssl_ca_paths
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12924">issue #12924</a> Do not show errors from OpenSSL cookie encryption/decryption
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12945">issue #12945</a> Fixed hint rendering on adding new user
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12941">issue #12941</a> Fixed sorting of tables in relation view
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12936">issue #12936</a> Fixed tables pagination in navigation panel
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12904">issue #12904</a> Do not collapse add form for central columns if there are none
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12955">issue #12955</a> Fixed database renaming
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12954">issue #12954</a> Fixed export of tracking data
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12960">issue #12960</a> Enclose exports in transaction by default
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12966">issue #12966</a> After adding a column ADD INDEX option won't be displayed when enabling AI
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12972">issue #12972</a> Better error message when Composer has not been run
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12988">issue #12988</a> Do not show language selector without choices
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12993">issue #12993</a> Fixed external links to php documentation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12990">issue #12990</a> Fixed error when loading favorite tables to console
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12981">issue #12981</a> Improved rendering of new version information
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12922">issue #12922</a> Fixed bookmarks ordering
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12964">issue #12964</a> Fixed table search in navigation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12985">issue #12985</a> Fixed rendering of foreign key browsing
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12957">issue #12957</a> Fixed manipulation with GIS data having zero coordinates
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12804">issue #12804</a> Fixed various designer javascript errors
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12934">issue #12934</a> Fixed possible javascript error on server status page
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12927">issue #12927</a> Fixed javascript error on 3NF normalization
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12996">issue #12996</a> List all databses in navigation panel database dropdown
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12980">issue #12980</a> Better defaults when creating multi field foreign key
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12976">issue #12976</a> Improved foreign key editor behavior
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12958">issue #12958</a> Always show error reporting dialog on top
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12693">issue #12693</a> Improved support for TokuDB
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11231">issue #11231</a> Try harder to honor LoginCookieValidity setting
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13016">issue #13016</a> and #13017 Slight improvements to the table layout of Relation view
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12345">issue #12345</a> Correctly show affected rows for LOAD DATA queries
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13010">issue #13010</a> Copy database: SQL error for copying PMADB metadata
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13002">issue #13002</a> Fixed OpenDocument exports
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13000">issue #13000</a> Align NULL values according to the column alignment
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13021">issue #13021</a> Show phpMyAdmin errors even with error_reporting set to 0
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13020">issue #13020</a> Removed warning about client and server versions mismatch
+- issue        Hide comments on table Structure tab when no comment is set
+- issue        Fixed submission of error reports
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13033">issue #13033</a> Use Referrer-Policy header to specify referrer policy
+- issue        Fixed javascript confirmation of dangerous queries
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13040">issue #13040</a> Compatibility with hhvm 3.18
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13031">issue #13031</a> Fixed displaying of all rows
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12967">issue #12967</a> Fixed related field selection for native relations
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13045">issue #13045</a> Properly escape MIME transformatoin names
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13028">issue #13028</a> Always show 100% in font selector
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13047">issue #13047</a> Fix query simulating for more servers
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12846">issue #12846</a> Fix new version check for sites with wrongly configured curl
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12951">issue #12951</a> When exporting to Excel, the default is now to include column names in the first row
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13059">issue #13059</a> Removed debugging code
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13029">issue #13029</a> Fixed table tracking for nested table groups
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13053">issue #13053</a> Fixed broken links in setup
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12708">issue #12708</a> Removed phpMyAdmin version from User-Agent header
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13084">issue #13084</a> Do not point users to setup when it is disabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12660">issue #12660</a> Delete only phpMyAdmin cookies on upgrade
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13088">issue #13088</a> Fixed editing of rows with text primary key
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13092">issue #13092</a> Do not try to sync favorite tables if configuration storage is not enabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13105">issue #13105</a> Fixed changing attribute for virtual field
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12757">issue #12757</a> Fixed setting password on recent MariaDB with non working plugins
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12349">issue #12349</a> Fixed undefined variable on import from some formats
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/13103">issue #13103</a> Do not offer default names for copying/renaming databases
+- issue        [security] Possible to bypass $cfg['Servers'][$i]['AllowNoPassword'], see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-08/">PMASA-2017-08</a>
+
+4.6.6 (2017-01-23)
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12759">issue #12759</a> Fix Notice regarding 'Undefined index: old_usergroup'
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12760">issue #12760</a> Fix Notice regarding 'Undefined index: users'
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12762">issue #12762</a> Fixed parsing of SQL with BINARY function
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12588">issue #12588</a> ReCaptcha now works without allow_url_fopen
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12699">issue #12699</a> Show no local storage warning only on settings tab
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12778">issue #12778</a> Syntax Error in Adding/Changing TIMESTAMP columns with default value as NULL
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12769">issue #12769</a> Edit/Export links are not clickable under Routines tab
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12757">issue #12757</a> Fixed creating new user with older MariaDB
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12784">issue #12784</a> Remove ctype installation suggestion
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12780">issue #12780</a> Format button replaces all text with blank spaces
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12786">issue #12786</a> Fixed database searching
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12792">issue #12792</a> Fixed javascript error on new version link
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12785">issue #12785</a> Add information about required and suggested extensions to composer.json
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12801">issue #12801</a> Custom header shown twice with cookie login form
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12802">issue #12802</a> Custom footer not shown with auth_type http login failure
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12434">issue #12434</a> Improve documentation for servers running with Suhosin
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12800">issue #12800</a> Updated embedded phpSecLib to 2.0.4
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12800">issue #12800</a> Fixed various issues with PHP 7.1
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/11816">issue #11816</a> Fixed operation with lower_case_table_names=2
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12813">issue #12813</a> Fixed stored procedure execution
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12826">issue #12826</a> Honor user configured connection collation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12293">issue #12293</a> Correctly report OpenSSL errors from cookie encryption
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12814">issue #12814</a> DateTime won't allow to input length in Routine editor
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12840">issue #12840</a> Fix Notice regarding 'Undefined index: row_format' when altering table options
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12841">issue #12841</a> Fixed moving of columns with whitespace in name
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12847">issue #12847</a> Fixed editing of virtual columns
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12859">issue #12859</a> Changed WHERE condition to 0 instead of 1 for SQL query window to avoid accidents
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12872">issue #12872</a> Use same query for display and execution when dropping index
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12868">issue #12868</a> Fix check for user groups freatures being enabled
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12876">issue #12876</a> Fix notices and warning related to dbs_to_test global
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12831">issue #12831</a> Fix table formatting on Insert tab, which mostly affected row highlighting
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12495">issue #12495</a> Reintroduced phpinfo page with limited capabilities
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12861">issue #12861</a> Fix renaming tables with lower_case_table_names=2
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12876">issue #12876</a> Fix possible PHP error in navigation
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12881">issue #12881</a> Fix database search with newer php-gettext
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12894">issue #12894</a> Fix linter error on unterminated variable name
+- <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://github.com/phpmyadmin/phpmyadmin/issues/12732">issue #12732</a> Fixed filtering for active processes
+- issue        [security] Multiple vulnerabilities in setup script, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2016-44/">PMASA-2016-44</a>.
+- issue        [security] Open redirect, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-1/">PMASA-2017-1</a>.
+- issue        [security] php-gettext code execution, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-2/">PMASA-2017-2</a>.
+- issue        [security] DOS vulnerabiltiy in table editing, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-3/">PMASA-2017-3</a>.
+- issue        [security] CSS injection in themes, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-4/">PMASA-2017-4</a>.
+- issue        [security] Cookie attribute injection attack, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-5/">PMASA-2017-5</a>.
+- issue        [security] SSRF in replication, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-6/">PMASA-2017-6</a>.
+- issue        [security] DOS in replication status, see <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/security/PMASA-2017-7/">PMASA-2017-7</a>.
+
+         --- Older ChangeLogs can be found on our project website ---
+                     <a target="_blank" rel="noopener noreferrer" href="url.php?url=https://www.phpmyadmin.net/old-stuff/ChangeLogs/">https://www.phpmyadmin.net/old-stuff/ChangeLogs/</a>
+
+# vim: et ts=4 sw=4 sts=4
+# vim: ft=changelog fenc=utf-8
+# vim: fde=getline(v\:lnum-1)=~'^\\s*$'&amp;&amp;getline(v\:lnum)=~'\\S'?'&gt;1'\:1&amp;&amp;v\:lnum&gt;4&amp;&amp;getline(v\:lnum)!~'^#'
+# vim: fdn=1 fdm=expr
+</pre></body>
+</html>
